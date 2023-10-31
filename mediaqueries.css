@@ -103,5 +103,9 @@
     #about .text-container {
       padding-top: 3rem;
       padding-bottom: 3rem;
+      text-align: justify;
+      align-items: center;
+      text-align: center;
+
     }
   }
