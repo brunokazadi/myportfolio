@@ -163,6 +163,13 @@ section {
     text-align: center;
     height: 150px ;
   }
+ #about .text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 150px ;
+  }
 
 .section-container {
   display: flex;
