@@ -1,5 +1,4 @@
-
-  /* GENERAL */
+/* GENERAL */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
@@ -147,7 +146,7 @@ a:hover {
   transform: none;
 }
 
-/* SECTIONS */
+/* ABOUT SECTIONS */
 
 section {
   padding-top: 4vh;
@@ -156,6 +155,14 @@ section {
   box-sizing: border-box;
   min-height: fit-content;
 }
+
+.text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 150px ;
+  }
 
 .section-container {
   display: flex;
@@ -269,22 +276,14 @@ section {
 }
 
 .about-containers {
-  gap: 1rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .about-details-container {
   justify-content: center;
   flex-direction: column;
-}
-
-.text-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 150px ;
 }
 
 .about-containers,
@@ -333,8 +332,7 @@ section {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
-  /*margin-bottom: 1rem; */
-  margin-bottom: 2rem; 
+  margin-bottom: 2rem;
 }
 
 .experience-details-container {
@@ -388,18 +386,6 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
-
-  margin-top: auto;
-  gap: 1rem;
-  display: flex;
-  justify-content: space-around;
-  bottom: 1rem;
-}
-
-.project-description{
-  flex-grow: 1;
-  margin-bottom: 10px; /* Adjust as needed */
-  margin-bottom: 1rem;
 }
 
 /* CONTACT */
