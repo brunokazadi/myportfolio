@@ -100,4 +100,7 @@
     .text-container {
       text-align: justify;
     }
+    #about .text-container {
+      padding-top: 5rem;
+    }
   }
