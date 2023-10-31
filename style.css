@@ -273,6 +273,7 @@ section {
 
 #about {
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .about-containers {
@@ -301,8 +302,8 @@ section {
   bottom: 2.5rem;
 }
 
-.details-container {
-  padding: 1.5rem;
+.skills-details-container{
+  padding: 1rem;
   flex: 1;
   background: white;
   border-radius: 2rem;
@@ -311,9 +312,46 @@ section {
   text-align: center;
 }
 
+.details-container {
+  padding: 1rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+
+}
+
+#projects .details-container {
+  padding: 1rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+
+  justify-content: space-between;
+  height: 50%;
+  flex-direction: column;
+}
+
+#projects .article-container{
+  min-height: 50;
+} 
+
+#projects .project-description {
+  min-height: 100px; /* e.g., 200px, but you need to adjust this value */
+}
+
+#projects .details-container{
+  min-height: 50px;
+}
+
 .section-container {
-  gap: 4rem;
-  height: 80%;
+  gap: 2rem;
+  height: 50%;
 }
 
 .section__pic-container {
@@ -326,12 +364,14 @@ section {
 
 #experience {
   position: relative;
+  
 }
 
 .experience-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
+  
   margin-bottom: 2rem;
 }
 
@@ -365,6 +405,12 @@ article .icon {
 
 #projects {
   position: relative;
+  margin-top: 10rem
+}
+
+.project-description {
+
+  padding-bottom: 5rem;
 }
 
 .color-container {
@@ -386,6 +432,7 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+  gap: 2rem;
 }
 
 /* CONTACT */
